@@ -1,0 +1,47 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 10rem;
+}
+
+#lipsum {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+tbody a {
+  color: #b01e1e;
+}
+tbody a:hover {
+  color: black;
+}
+
+.table {
+  width: 55%;
+  margin-left: 22.5%;
+}
+
+img {
+  width: 13rem;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 21px;
+    padding: 2rem;
+  }
+
+  #lipsum {
+    display: none;
+  }
+
+  .table {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
